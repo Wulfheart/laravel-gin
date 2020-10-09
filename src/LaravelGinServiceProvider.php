@@ -29,7 +29,8 @@ class LaravelGinServiceProvider extends ServiceProvider
                 LaravelGinCommand::class,
             ]);
         }
-
+        
+        $this->loadRoutesFrom(__DIR__ . "/Routes/web.php");
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel-gin');
     }
 

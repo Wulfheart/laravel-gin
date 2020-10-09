@@ -1,0 +1,25 @@
+{
+  "name": "laravel-gin",
+  "version": "1.0.0",
+  "description": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/wulfheart/laravel-gin.svg?style=flat-square)](https://packagist.org/packages/wulfheart/laravel-gin) [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/wulfheart/laravel-gin/run-tests?label=tests)](https://github.com/wulfheart/laravel-gin/actions?query=workflow%3Arun-tests+branch%3Amaster) [![Total Downloads](https://img.shields.io/packagist/dt/wulfheart/laravel-gin.svg?style=flat-square)](https://packagist.org/packages/wulfheart/laravel-gin)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wulfheart/laravel-gin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wulfheart/laravel-gin/issues"
+  },
+  "homepage": "https://github.com/Wulfheart/laravel-gin#readme",
+  "devDependencies": {
+    "laravel-mix": "^5.0.6"
+  }
+}
