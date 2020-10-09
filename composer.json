@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "wulfheart/laravel-gin",
+    "description": "",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "wulfheart",
+        "laravel-gin"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/wulfheart/laravel-gin",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Alex Wulf",
+            "email": "dev@alexfwulf.de",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -27,13 +27,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Wulfheart\\LaravelGin\\": "src",
+            "Wulfheart\\LaravelGin\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Wulfheart\\LaravelGin\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Wulfheart\\LaravelGin\\LaravelGinServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelGin": "Wulfheart\\LaravelGin\\LaravelGinFacade"
             }
         }
     },

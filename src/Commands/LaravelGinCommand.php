@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Skeleton\Commands;
+namespace Wulfheart\LaravelGin\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelGinCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-gin';
 
     public $description = 'My command';
 
