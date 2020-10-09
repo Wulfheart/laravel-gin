@@ -4,6 +4,7 @@ namespace Wulfheart\LaravelGin;
 
 use Illuminate\Support\ServiceProvider;
 use Wulfheart\LaravelGin\Commands\LaravelGinCommand;
+use Wulfheart\LaravelGin\Commands\PublishCommand;
 
 class LaravelGinServiceProvider extends ServiceProvider
 {
@@ -27,11 +28,13 @@ class LaravelGinServiceProvider extends ServiceProvider
 
             $this->commands([
                 LaravelGinCommand::class,
+                PublishCommand::class,
             ]);
         }
         
         $this->loadRoutesFrom(__DIR__ . "/Routes/web.php");
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'laravel-gin');
+      
     }
 
     public function register()
